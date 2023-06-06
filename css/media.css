@@ -1,0 +1,428 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-nav li {
+		margin-right: 10px;
+	}
+	.navbar-nav li a {
+		font-size: 12px;
+	}
+	.navbar-brand img {
+		width: 60%;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	.main-logo {
+		position: fixed;
+		top: 30%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		z-index: 1;
+	    overflow: hidden;
+	    transition: 0.5s all ease;
+	}
+	.portfolio-section-first img {
+		margin: 0 auto;
+		margin-top: 40px!important;
+	}
+	.project-title {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		padding-top: 150px;
+		transition: 0.5s all ease;
+	}
+	.scrolled-title {
+	  	padding-top: 60px;
+	}
+	.casting-text-section h6 {
+		font-size: 14px;
+	}
+	.project-title h2 {
+		font-size: 35px;
+	}
+	.project-title h6 {
+		font-size: 12px;
+	}
+	.video-bg video {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+/*	.about-me-text {
+		position: absolute;
+		top: 20%;
+		bottom: 0;
+		left: 15%;
+		right: 15%;
+		margin: 0 auto;
+	}*/
+	.about-me-section-top {
+		margin-top: 120px;
+	}
+	.about-me-text p {
+		font-size: 12px;
+		width: 80%;
+		padding: 5px;
+		margin: 0 auto;
+	}
+	.mute-btn {
+	    width:6%;
+	    height:13%;
+	    right:13%;
+	    bottom:7%;
+	}
+	.service-section {
+		padding: 100px 0;
+	}
+	.services-list h3 {
+		font-size: 22px;
+	}
+	.services-list p {
+		font-size: 14px;
+	}
+	.portfolio-section {
+		padding: 80px 0;
+	}
+	.portfolio-section-title {
+	    margin-top: 30px;
+	}
+	.editorial-section {
+		padding: 300px 0;
+		padding-bottom: 100px;
+	}
+	.portfolio-section-top {
+		margin-top: 560px;
+	}
+	.top-padding-space {
+		margin-top: 450px;
+	}
+	.top-padding-space-2 {
+		margin-top: 350px;
+	}
+	.title-description {
+		width: 90%!important;
+		margin: 0 auto;
+	}
+	.casting-text-section h6 {
+		font-size: 12px;
+	}
+	.project-title h3 {
+		font-size: 20px;
+	}
+	.timeline-text {
+		margin-bottom: 40px;
+		padding-left: 20px;
+	}
+	.timeline-text h3 {
+		font-size: 18px;
+	}
+	.dark-bg {
+		padding-top: 30px;
+	}
+	.contact-section {
+		padding: 200px 0;
+	}
+	.contact-details img {
+		width: 100%;
+	}
+	.contact-details h2, .contact-details h2 a {
+		font-size: 18px;
+	}
+	.footer-border hr {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.footer-logo img {
+		width: 40%;
+		margin-bottom: 30px;
+	}
+	.footer-contact h5, .footer-social h5 {
+		font-size: 14px;
+	}
+	.footer-contact a, .footer-social a {
+		font-size: 12px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-nav {
+		margin-top: 25px;
+	}
+	.navbar-nav li {
+		margin-right: 25px;
+	}
+	.navbar-brand img {
+		width: 40%;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.main-logo {
+		position: fixed;
+		top: 40%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		z-index: 1;
+	    overflow: hidden;
+	    transition: 0.5s all ease;
+	}
+	.project-title h2 {
+		font-size: 60px;
+	}
+	.project-title h3 {
+		font-size: 30px;
+	}
+	.project-title h6 {
+		font-size: 13px;
+	}
+	.title-description {
+		width: 90%!important;
+		margin: 0 auto;
+	}
+	.project-title {
+		padding-top: 160px;
+		transition: 0.5s all ease;
+	}
+	.scrolled-title {
+	  	padding-top: 90px;
+	}
+	.portfolio-section-first img {
+		margin: 0 auto;
+		margin-top: 40px!important;
+	}
+	.portfolio-section-title {
+		margin-top: 0px;
+	}
+	.three-column-title {
+		margin-top: 60px;
+	}
+	.portfolio-section {
+		padding: 120px 0;
+	}
+	.editorial-section {
+		padding: 140px 0;
+		padding-top: 350px;
+	}
+	.project-title h2 {
+		font-size: 50px;
+	}
+	.video-bg video {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	.mute-btn {
+	    width:6%;
+	    height:13%;
+	}
+	.portfolio-section-top {
+		margin-top: 520px;
+	}
+	.top-padding-space {
+		margin-top: 460px;
+	}
+	.top-padding-space-2 {
+		margin-top: 350px;
+	}
+	.casting-text-section h6 {
+		font-size: 13px;
+	}
+/*	.about-me-text {
+		position: absolute;
+		top: 24%;
+		bottom: 0;
+		left: 20%;
+		right: 20%;
+		margin: 0 auto;
+	}*/
+	.about-me-text p {
+		font-size: 14px;
+		width: 75%!important;
+		padding: 5px;
+		margin: 0 auto;
+	}
+	.service-section {
+		padding: 150px 0;
+	}
+	.services-list h3 {
+		font-size: 22px;
+	}
+	.services-list p {
+		font-size: 14px;
+	}
+	.timeline-text {
+		margin-bottom: 40px;
+		padding-left: 25px;
+	}
+	.timeline-text h3 {
+		font-size: 20px;
+	}
+	.dark-bg {
+		padding-top: 40px;
+	}
+	.contact-details h2, .contact-details h2 a {
+		font-size: 25px;
+	}
+	.footer-border hr {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.footer-logo img {
+		width: 60%;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-nav {
+		margin-top: 30px;
+	}
+	.navbar-brand img {
+		width: 50%;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.main-logo {
+		position: fixed;
+		top: 200px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto;
+		z-index: 1;
+	}
+	.video-bg video {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	.about-me-section-top {
+		margin-top: 150px;
+	}
+	.about-me-text p {
+		font-size: 14px;
+		width: 65%;
+		padding: 6px;
+	}
+	.service-section {
+		padding: 180px 0;
+		padding-bottom: 100px;
+	}
+	.project-title h2 {
+		font-size: 70px;
+	}
+	.title-description {
+		width: 75%!important;
+		font-size: 15px;
+		line-height: 1.8;
+		margin: 0 auto;
+	}
+	.portfolio-section {
+		padding: 120px 0;
+		padding-bottom: 100px;
+	}
+	.editorial-section {
+		padding: 180px 0;
+		padding-top: 350px;
+	}
+	.top-padding-space-2 {
+		margin-top: 500px;
+	}
+	.mute-btn {
+	    width:4%;
+	    height:8%;
+	}
+	.timeline-text {
+		margin-bottom: 40px;
+		padding-left: 20px;
+	}
+	.dark-bg {
+		padding-top: 40px;
+	}
+	.contact-details h2, .contact-details h2 a {
+		font-size: 30px;
+	}
+	.footer-border hr {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.footer-logo img {
+		width: 95%;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.navbar-brand img {
+		width: 30%;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.video-bg video {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+/*	.about-me-text {
+		position: absolute;
+		top: 30%;
+		bottom: 0;
+		left: 10%;
+		right: 10%;
+		margin: 0 auto;
+	}*/
+	.about-me-section-top {
+		margin-top: 160px!important;
+	}
+	.video-bg {
+		margin-top: 80px;
+	}
+	.about-me-text p {
+		font-size: 16px;
+		width: 55%;
+		padding: 7px;
+	}
+	.title-description {
+		width: 65%!important;
+		font-size: 15px;
+		line-height: 2;
+		margin: 0 auto;
+	}
+	.portfolio-section {
+		padding: 140px 0;
+		padding-bottom: 100px;
+	}
+ 	.portfolio-section-last-bottom-space {
+ 		padding-bottom: 180px;
+ 	}
+	.editorial-section {
+		padding: 180px 0;
+		padding-top: 400px;
+	}
+	.dark-bg {
+		padding-top: 50px;
+	}
+	.service-section {
+		padding: 200px 0;
+		padding-bottom: 100px;
+	}
+	.footer-border hr {
+		width: 95%;
+		margin-bottom: 40px;
+	}
+	.footer-logo img {
+		width: 75%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
